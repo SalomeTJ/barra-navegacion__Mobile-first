@@ -1,0 +1,18 @@
+@import"./header.css";
+@import"./hero.css";
+@import"./esteban.css";
+@import"./marvol.css";
+@import"./netnet.css";
+@import"./contacto.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Poppins:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+    height: 1530vw;
+}

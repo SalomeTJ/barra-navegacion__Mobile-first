@@ -1,0 +1,88 @@
+.hero{
+    /* background-color: red; */
+    max-width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero .foto img{
+    width: 100%;
+}
+
+.hero .text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero .text h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.hero .text h1 span{
+    font-size: 59px;
+}
+
+.hero .text h2{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.hero .hero-contacto{
+    margin-right: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.coment{
+    max-width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.coment .text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.coment .text h1{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.coment .text h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.macbook{
+    position:absolute;
+    width: 255.09px;
+    height: 179.5px;
+    left: 55.82px;
+    top: 0;
+    z-index: -1;  
+}
+  
+.iphone{
+    position:absolute;
+    width: 65.34px;
+    height: 132.06px;
+    left: 50px;
+    top: 40px;
+    z-index: 1;
+}
